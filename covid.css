@@ -1,0 +1,79 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+  font-size: large;
+}
+body {
+  background-color: blueviolet;
+}
+img {
+  width: 250px;
+  height: 250px;
+}
+.heading {
+  text-align: center;
+}
+#title {
+  font-size: 24px;
+}
+#txt {
+  font-size: 16px;
+  font-style: italic;
+}
+.container {
+  background-color: white;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 500px;
+  display: flex;
+  border-radius: 10px;
+}
+.details {
+  flex: 1;
+  text-align: center;
+  padding: 5px 10px;
+  border-right: violet solid 4px;
+}
+.data {
+  margin-top: 10%;
+  padding: 5px 10px;
+  text-align: left;
+}
+.questions {
+  flex: 1;
+  padding: 5px 10px;
+  text-align: center;
+  border-right: violet solid 4px;
+}
+.precautions {
+  flex: 1;
+  padding: 5px 10px;
+  text-align: center;
+}
+#data1 {
+  margin-top: 12%;
+}
+form#data1 label {
+  float: left;
+  width: 30%;
+}
+input {
+  margin-bottom: 10px;
+}
+
+label {
+  padding-left: 4px;
+}
+.send {
+  margin-top: 15%;
+}
+button {
+  padding: 8px;
+}
+button:hover {
+  border: violet solid 2px;
+  border-radius: 4px;
+  color: green;
+
+  cursor: pointer;
+}
