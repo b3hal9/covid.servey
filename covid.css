@@ -71,9 +71,6 @@ form#data1 input {
   border-bottom: violet solid 2px;
 }
 
-.send {
-  margin-top: 5%;
-}
 button {
   padding: 8px;
 }
@@ -87,14 +84,23 @@ button:hover {
 .minsend {
   display: none;
 }
+#Merror,
+#Nerror,
+#Aerror,
+#ckerror,
+#pkerror {
+  font-size: 14px;
+  color: red;
+  display: none;
+}
 
 @media (max-width: 800px) {
   #title {
-    font-size: 22px;
+    font-size: 20px;
   }
   img {
-    width: 120px;
-    height: 120px;
+    width: 110px;
+    height: 110px;
   }
   #txt {
     font-size: 16px;
@@ -103,6 +109,7 @@ button:hover {
     flex-direction: column;
     margin-left: 2px;
     margin-right: 2px;
+    height: 100%;
   }
   .details {
     flex: 1;
@@ -113,7 +120,8 @@ button:hover {
     margin-top: 5%;
   }
   .mintxt {
-    font-size: 18px;
+    font-size: 16px;
+    font-style: italic;
   }
   .minspan {
     font-size: 18px;
