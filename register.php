@@ -31,7 +31,7 @@
          }else{
            echo '<h2>Insertion Failed. Try again.!!.</h2>';
          }
-         header("refresh:3, url=covid.html");
+         header("refresh:3, url=index.html");
        }
       }
     
@@ -42,13 +42,3 @@
 
 
 
-<!-- 
-$data = array()
-        $name = $_POST['name'];
-        $email = $_POST['email'];
-        $address = $_POST['address'];
-        $age = $_POST['age'];
-        $symptoms = $_POST['symptoms'];
-        $symptomsData = implode(",",$symptoms);
-        $precautions = $_POST['precautions'];
-        $precautionsData = implode(",",$precautions); -->
