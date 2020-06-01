@@ -6,8 +6,8 @@ body {
   background-color: blueviolet;
 }
 img {
-  width: 250px;
-  height: 250px;
+  width: 160px;
+  height: 160px;
 }
 .heading {
   text-align: center;
@@ -21,7 +21,6 @@ img {
 }
 .container {
   background-color: white;
-  margin-top: 5%;
   margin-left: 10%;
   margin-right: 10%;
   height: 500px;
@@ -31,17 +30,23 @@ img {
 .details {
   flex: 1;
   text-align: center;
-  padding: 5px 10px;
+  padding: 2px 4px;
   border-right: violet solid 4px;
 }
 .data {
   margin-top: 10%;
-  padding: 5px 10px;
+  padding: 2px 4px;
   text-align: left;
+}
+label {
+  margin-bottom: 10px;
+}
+.data input {
+  margin-bottom: 20px;
 }
 .questions {
   flex: 1;
-  padding: 5px 10px;
+  padding: 2px 4px;
   text-align: center;
   border-right: violet solid 4px;
 }
@@ -51,21 +56,23 @@ img {
   text-align: center;
 }
 #data1 {
-  margin-top: 12%;
+  margin-top: 5%;
 }
 form#data1 label {
   float: left;
-  width: 30%;
 }
-input {
-  margin-bottom: 10px;
+form#data1 input {
+  margin-right: 4px;
+  width: 100%;
+  margin-bottom: 20px;
+  border: none;
+  background: none;
+  outline: none;
+  border-bottom: violet solid 2px;
 }
 
-label {
-  padding-left: 4px;
-}
 .send {
-  margin-top: 15%;
+  margin-top: 5%;
 }
 button {
   padding: 8px;
@@ -76,4 +83,52 @@ button:hover {
   color: green;
 
   cursor: pointer;
+}
+.minsend {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  #title {
+    font-size: 22px;
+  }
+  img {
+    width: 120px;
+    height: 120px;
+  }
+  #txt {
+    font-size: 16px;
+  }
+  .container {
+    flex-direction: column;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  .details {
+    flex: 1;
+    border-bottom: blueviolet solid 4px;
+    border-right: none;
+  }
+  .data {
+    margin-top: 5%;
+  }
+  .mintxt {
+    font-size: 18px;
+  }
+  .minspan {
+    font-size: 18px;
+  }
+  .questions {
+    border-right: none;
+    border-bottom: blueviolet solid 4px;
+  }
+  .precautions {
+    border-bottom: blueviolet solid 4px;
+  }
+  .send {
+    display: none;
+  }
+  .minsend {
+    display: initial;
+  }
 }
