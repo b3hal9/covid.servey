@@ -5,5 +5,5 @@ We also provide feedback on the basis of their symptoms.
 
 
 ---
-permalink: /index.html
+permalink: /covid.html
 ---
